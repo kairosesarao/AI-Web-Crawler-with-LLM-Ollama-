@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Web Crawler</title>
+    <style>
+        body { font-family: Arial; margin: 40px; }
+        .result { border-top: 1px solid #ccc; margin-top: 20px; padding-top: 10px; }
+        input[type="text"], input[type="submit"] {
+            padding: 10px; width: 100%; margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>AI Web Crawler (Local Ollama Edition)</h1>
+    <form method="POST">
+        <input type="text" name="keyword" placeholder="Enter a topic (e.g., climate change)" required>
+        <input type="submit" value="Analyze">
+    </form>
+
+    {% for item in results %}
+    <div class="result">
+        <h2>{{ item.title }}</h2>
+        <p><a href="{{ item.url }}" target="_blank">{{ item.url }}</a></p>
+        <pre>{{ item.analysis }}</pre>
+    </div>
+    {% endfor %}
+</body>
+</html>
