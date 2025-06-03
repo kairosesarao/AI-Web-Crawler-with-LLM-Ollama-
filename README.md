@@ -39,6 +39,6 @@ This project was created by me **Kairose Sarao** as part of an internship assign
 
 ## 📸 Screenshot
 
-![App Screenshot](screenshot.png)
+![App Screenshot](screenshot)
 
 
