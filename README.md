@@ -37,7 +37,8 @@ Then open `http://127.0.0.1:5000` in your browser.
 This project was created by me **Kairose Sarao** as part of an internship assignment to demonstrate practical skills in AI, web crawling, and full-stack development.
 
 
-## 📸 Screenshot
+
+## 📸 Screenshot for showcasing the work on the project
 
 ![App Screenshot](screenshot)
 
